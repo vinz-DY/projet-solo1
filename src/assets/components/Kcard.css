@@ -24,13 +24,17 @@
     gap: 2rem;
 }
 
+.text-container {
+    width: 295px;
+}
+
 body {
     width: 100%;
-   background: rgb(9,9,121);
-background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
+    background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
 }
 
 .isVu {
+    width: 50px;
     padding: 0.2em 0.7em;
     margin-left: 0.2em;
     margin-top: 0.2em;
@@ -38,6 +42,7 @@ background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
 }
 
 .notIsVu{
+   width: 50px;
     padding: 0.2em 0.7em;
     margin-left: 0.2em;
     margin-top: 0.2em;
@@ -45,13 +50,13 @@ background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
     background-color: rgb(149, 150, 232);
 }
 
+
 .card:hover {
-   outline: 2px solid rgb(58, 58, 203);
+   outline: 2px solid rgb(149, 150, 232);
 }
 
 h1{
     margin-left: 0.5rem;
-    font-family: ;
 }
 
 /*ok

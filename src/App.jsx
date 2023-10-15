@@ -17,7 +17,7 @@ const dramasItems = [
   {
     dramaName: "Rugal",
     dramaImage: 'src/assets/rugal.jpg',
-    dramaSynopsis: "Kang Gi Beom, un détective d'élite, enquête sur une organisation criminelle nommée Argos. En tentant de les faire tomber, il finit par perdre sa femme et ses yeux, arrachés par des hommes masqués envoyés par Argos. En se réveillant, il se retrouve à l'hôpital et accusé de meurtre. Il est alors approché par le NIS, qui le sélectionne pour devenir un membre de Rugal. Grâce à leur biotechnologie, Kang Gi Beom reçoit des yeux artificiels avec des capacités spéciales. Il se mettra alors en quête de détruire l'organisation criminelle.",
+    dramaSynopsis: "Kang Gi Beom, un détective d'élite, enquête sur une organisation criminelle nommée Argos. En tentant de les faire tomber, il finit par perdre sa femme et ses yeux, arrachés par des hommes masqués envoyés par Argos. En se réveillant, il se retrouve à l'hôpital et accusé de meurtre. Il est alors approché par le NIS, qui le sélectionne pour devenir un membre de Rugal.",
     isVu: true,
     style: 'thriller'
   },
@@ -27,6 +27,27 @@ const dramasItems = [
     dramaSynopsis: "Gang Dong Su est un détective d'élite qui a une très bonne intuition et de grandes capacités d'analyse. Pour ses différentes enquêtes, il travaillera avec la détective Yu Si Hyeon. Cette dernière a la capacité d'esquisser des dessins de ce qui se passera trois jours dans le futur.",
     isVu: true,
     style: 'thriller'
+  },
+  {
+    dramaName: "I am not a robot",
+    dramaImage: 'src/assets/robot.jpg',
+    dramaSynopsis: "Tout être humain est un jour dans sa vie blessé au plus profond de son cœur. Chacun se protège comme il peut et développe une façon bien à lui de ne pas être blessé à nouveau.",
+    isVu: true,
+    style: 'lovers'
+  },
+  {
+    dramaName: "Twenty five Twenty one",
+    dramaImage: 'src/assets/twenty.jpg',
+    dramaSynopsis: "2020. Sur un coup de tête, la jeune Kim Min Chae décide d'arrêter la danse. Après s'être disputée avec sa mère, elle se réfugie chez sa grand-mère. Installée dans la chambre de sa maman, elle trouve les vieux journaux intimes de celle-ci.",
+    isVu: true,
+    style: 'lovers'
+  },
+  {
+    dramaName: "Because this is my first life",
+    dramaImage: 'src/assets/life.jpg',
+    dramaSynopsis: "Nam Se Hee est un trentenaire qui a choisi d'être célibataire car pour lui, c'est la décision la plus logique et intelligente. Il a réussi à acheter sa propre maison, mais le remboursement de son prêt consomme tous ses revenus.",
+    isVu: true,
+    style: 'lovers'
   },
 ]
 
