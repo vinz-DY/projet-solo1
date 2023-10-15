@@ -1,7 +1,15 @@
 import "../components/Kcard.css";
 import React from "react";
+import { useState } from "react";
 
-const KCard = ({dramaIndex}) => {
+const KCard = ({ dramaIndex }) => {
+
+    const [isVu, setIsVu] = useState(dramaIndex.isVu);
+  const handleClickisVu = () => {
+    setIsVu(!isVu);
+  };
+      const isVuClass = isVu ? 'isVu' : 'notIsVu';
+
   return (
     <div className="card">
       <div>
@@ -12,7 +20,7 @@ const KCard = ({dramaIndex}) => {
         <p>
           {dramaIndex.dramaSynopsis}
         </p>
-        <button className="check" >vu</button>
+        <button onClick={handleClickisVu} className={isVuClass} >vu</button>
       </div>
     </div>
   );

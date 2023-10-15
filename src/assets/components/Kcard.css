@@ -30,11 +30,19 @@ body {
 background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
 }
 
-.check {
+.isVu {
     padding: 0.2em 0.7em;
     margin-left: 0.2em;
     margin-top: 0.2em;
     border-radius: 0.5em;
+}
+
+.notIsVu{
+    padding: 0.2em 0.7em;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    border-radius: 0.5em;
+    background-color: green;
 }
 
 .card:hover {
