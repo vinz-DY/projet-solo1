@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.card {
+  width: 300px;
+  height:320px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.38);
+  background-color: white;
+  border-radius: 0.5em;
+  margin-bottom: 5rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+body {
+    width: 100%;
+   background: rgb(9,9,121);
+background: radial-gradient(circle, rgb(58, 58, 203) 2%, rgba(2,0,36,1) 99%);
+}
+
+.check {
+    padding: 0.2em 0.7em;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    border-radius: 0.5em;
+}
+
+.card:hover {
+   outline: 2px solid rgb(58, 58, 203);
+}
+
+/*ok
