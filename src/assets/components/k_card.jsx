@@ -27,5 +27,3 @@ const KCard = ({ dramaIndex }) => {
 };
 
 export default KCard;
-
-//ok 
