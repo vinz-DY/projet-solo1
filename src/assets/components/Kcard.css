@@ -7,13 +7,27 @@
 
 .card {
   width: 300px;
-  height:310px;
+  min-height: 270px;
+  max-height: 310px;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.38);
   background-color: white;
   border-radius: 0.5em;
   margin-bottom: 5rem;
+
+}
+.card1 {
+  width: 300px;
+  min-height: 270px;
+  max-height: 610px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.38);
+  background-color: white;
+  border-radius: 0.5em;
+  margin-bottom: 5rem;
+
 }
 
 
@@ -26,6 +40,7 @@
 
 .text-container {
     width: 295px;
+    overflow: hidden; 
 }
 
 body {
@@ -34,24 +49,33 @@ body {
 }
 
 .isVu {
-    width: 50px;
+    width: 60px;
+    height: 25px;
     padding: 0.2em 0.7em;
     margin-left: 0.2em;
     margin-top: 0.2em;
+    margin-bottom: 0.2em;
     border-radius: 0.5em;
+    font-size: 12px;
 }
 
 .notIsVu{
-   width: 50px;
+    width: 60px;
+    height: 25px;
     padding: 0.2em 0.7em;
     margin-left: 0.2em;
     margin-top: 0.2em;
+    margin-bottom: 0.2em;
     border-radius: 0.5em;
     background-color: rgb(149, 150, 232);
+    font-size: 12px;
 }
 
 
 .card:hover {
+   outline: 2px solid rgb(149, 150, 232);
+}
+.card1:hover {
    outline: 2px solid rgb(149, 150, 232);
 }
 
@@ -59,4 +83,7 @@ h1{
     margin-left: 0.5rem;
 }
 
-/*ok
+p:hover{
+    cursor: pointer;
+}
+

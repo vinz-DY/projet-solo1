@@ -7,10 +7,17 @@ const KCard = ({ dramaIndex }) => {
   const handleClickisVu = () => {
     setIsVu(!isVu);
   };
+  const [text, setText] = useState(dramaIndex.text);
+  const handleClicktext = () => {
+    setText(!text);
+  };
+
   const isVuClass = isVu ? "isVu" : "notIsVu";
+  const aVoir = isVu ? "à voir" : "vu";
+  const cardClass = text ? "card" : "card1";
 
   return (
-    <div className="card">
+    <div  className={cardClass}>
       <div>
         <h1>{dramaIndex.dramaName}</h1>
       </div>
@@ -19,12 +26,13 @@ const KCard = ({ dramaIndex }) => {
         src={dramaIndex.dramaImage}
         alt={dramaIndex.dramaName}
       />
-      <div className="text-container" >
-        <p>{dramaIndex.dramaSynopsis}</p>
+      <div className="text-container"  >
+        <p onClick={handleClicktext}>{dramaIndex.dramaSynopsis}</p>
       </div>
 
+
       <button onClick={handleClickisVu} className={isVuClass}>
-        vu
+        {aVoir}
       </button>
     </div>
   );
