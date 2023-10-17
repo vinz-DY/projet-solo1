@@ -14,11 +14,7 @@
   border: none;
 }
 
-p {
-  font-size: 9px;
-  margin-top: 0.2em;
-  margin-left: 0.5em;
-}
+
 
 .btn {
   background-color: white;
@@ -32,6 +28,22 @@ p {
   outline: 2px solid white;
   color: white;
 
+}
+
+@media screen and (min-width: 795px) {
+.btn {
+  background-color: white;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 2em;
+}
+
+.btn:hover {
+  background-color: rgb(118, 111, 221);
+  outline: 2px solid white;
+  color: white;
+
+}
 }
 
 

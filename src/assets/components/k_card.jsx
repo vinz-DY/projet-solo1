@@ -19,7 +19,7 @@ const KCard = ({ dramaIndex }) => {
   return (
     <div className={cardClass}>
       <div>
-        <h1>{dramaIndex.dramaName}</h1>
+        <h1 className="policeTitle">{dramaIndex.dramaName}</h1>
       </div>
       <img
         className="screen"
