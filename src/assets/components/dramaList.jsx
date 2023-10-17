@@ -1,13 +1,11 @@
 import React from "react";
-import K_card from "./k_card"; 
+import K_card from "./k_card";
 
-const DramaList = ({dramasItem}) => {
+const DramaList = ({ dramasItem }) => {
   return (
     <div className="drama-list">
       {dramasItem.map((dramaIndex) => (
-        <K_card key={dramaIndex.dramaName} dramaIndex ={dramaIndex}
-          
-        />
+        <K_card key={dramaIndex.dramaName} dramaIndex={dramaIndex} />
       ))}
     </div>
   );
@@ -15,4 +13,4 @@ const DramaList = ({dramasItem}) => {
 
 export default DramaList;
 
-//ok 
+//ok

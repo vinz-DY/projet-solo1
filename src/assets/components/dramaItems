@@ -55,5 +55,4 @@ const dramasItems = [
   },
 ];
 
-
-export default dramasItems
+export default dramasItems;

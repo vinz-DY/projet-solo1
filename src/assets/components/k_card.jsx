@@ -17,7 +17,7 @@ const KCard = ({ dramaIndex }) => {
   const cardClass = text ? "card" : "card1";
 
   return (
-    <div  className={cardClass}>
+    <div className={cardClass}>
       <div>
         <h1>{dramaIndex.dramaName}</h1>
       </div>
@@ -26,10 +26,9 @@ const KCard = ({ dramaIndex }) => {
         src={dramaIndex.dramaImage}
         alt={dramaIndex.dramaName}
       />
-      <div className="text-container"  >
+      <div className="text-container">
         <p onClick={handleClicktext}>{dramaIndex.dramaSynopsis}</p>
       </div>
-
 
       <button onClick={handleClickisVu} className={isVuClass}>
         {aVoir}
