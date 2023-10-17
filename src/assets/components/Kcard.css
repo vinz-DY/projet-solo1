@@ -5,6 +5,11 @@
     
 }
 
+@font-face {
+    font-family: 'cinema'; 
+    src: url('./Cinema/Viona.ttf');
+}
+
 .card {
   width: 300px;
   min-height: 260px;
@@ -81,9 +86,11 @@ body {
 
 h1{
     margin-left: 0.5rem;
+
 }
 
 p:hover{
     cursor: pointer;
 }
+
 
